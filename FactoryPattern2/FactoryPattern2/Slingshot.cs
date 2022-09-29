@@ -10,7 +10,7 @@ namespace FactoryPattern2
     {
         public void Drive()
         {
-            Console.WriteLine($"Building a new Slingshot!");
+            Console.WriteLine($"We're building a new Slingshot!");
         }
     }
 }

@@ -9,16 +9,6 @@ namespace FactoryPattern2
 {
     internal interface IVehicle
     {
-        public void Drive() { }   //{} Necessary??
-        
+        public void Drive();
     }
 }
-
-
-
-
-//Note: These classes must conform to IVehicle and implement the Drive() method - which will just Console.WriteLine(“Building a new Car!”)
-
-//Now we will make our static VehicleFactory class.
-//It will contain a static method GetVehicle(), that will return an IVehicle based on the amount of tires it’s given as a parameter
-//Call this functionality in the Main method.

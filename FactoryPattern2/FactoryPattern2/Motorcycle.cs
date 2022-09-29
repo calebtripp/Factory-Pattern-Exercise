@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern2
 {
-    internal class Motorcycle : IVehicle    
+    internal class Motorcycle : IVehicle
     {
-     //   public void Drive()
+        public void Drive()
         {
-            Console.WriteLine($"Building a new Motorcycle!");
+            Console.WriteLine($"We're building a new Motorcycle!");
         }
-
     }
 }
